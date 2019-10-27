@@ -1,0 +1,115 @@
+  131  ls
+  132  cd Escritorio/
+  133  ls
+  134  cd Proyecto/
+  135  ls -la
+  136  cd Practicas_Git/
+  137  git status
+  138  magit
+  139  vim texto2.txt
+  140  git status
+  141  git commit -am "Commit Sunday"
+  142  git push
+  143  git push origin master
+  144  magit
+  145  ls -hls
+  146  vi ~/.bashrc
+  147  cd Escritorio/
+  148  cd Proyecto/Practicas_Git/
+  149  git branch
+  150  git branch rama3
+  151  git branch
+  152  git checkout rama2
+  153  ls
+  154  touch alvaro.txt estefany.txt
+  155  ls
+  156  cd JS
+  157  touch miguel.txt katerin.txt
+  158  cd ..
+  159  git status
+  160  git add .
+  161  git commit -m "Probando los brach"
+  162  git push origin rama2
+  163  git checkout master
+  164  git checkout rama3
+  165  cd js
+  166  cd JS
+  167  ls
+  168  git log
+  169  git log --all
+  170  git checkout master
+  171  git merge rama2 -m "Union Rama2"
+  172  alias git log --all --graph --decorate --oneline
+  173  alias magit="git log --all --graph --decorate --oneline"
+  174  magit
+  175  git pull rama4 master
+  176  git pull origin master
+  177  git branch
+  178  git pull origin rama4
+  179  git branch 
+  180  git status
+  181  ls
+  182  git log
+  183  magit
+  184  git status
+  185  git branch
+  186  git show
+  187  git merge rama4
+  188  git log
+  189  git checkout rama4
+  190  magit
+  191  cd
+  192  cd Escritorio/
+  193  mkdir Seguridad
+  194  cd Seguridad/
+  195  pwd
+  196  ssh-keygen -t rca -b 4096 -C ekhaliaga@gmail.com 
+  197  ssh-keygen -t rsa -b 4096 -C ekhaliaga@gmail.com 
+  198  ls
+  199  cd
+  200  ls
+  201  ls -la
+  202  cd .ssh
+  203  ls -la
+  204  eval $ (ssh-agent -s)
+  205  eval $(ssh-agent -s)
+  206  pwd
+  207  ssh-add ~/.ssh/id_rsa
+  208  cd
+  209  cd Escritorio/Proyecto/Practicas_Git/
+  210  git show
+  211  git remote -v
+  212  git remote set-url origin https://github.com/ektheryz/bananaSplit.git
+  213  git remote -v
+  214  git remote set-url origin git@github.com:ektheryz/bananaSplit.git
+  215  git remote -v
+  216  magit
+  217  git tag -a v1.0 d8142d5
+  218  git status
+  219  git tag
+  220  git show-refs --tags
+  221  git show-ref --tags
+  222  git push origin --tags
+  223  git tag
+  224  git tag -t v1.0
+  225  git tag -d v1.0
+  226  git tag
+  227  git push --tags
+  228  git push origin --tags
+  229  git push origin :refs/tags/v1.0
+  230  git branch
+  231  git pullo origin rama4
+  232  git pull origin rama4
+  233  git checkout rama4
+  234  git branch
+  235  git pull origin rama4
+  236  git checkout rama4
+  237  git branch
+  238  git push origin rama3
+  239  git pull origin rama4
+  240  git checkout rama4
+  241  git branch
+  242  git checkout rama4
+  243  historial
+  244  history
+
