@@ -1,0 +1,119 @@
+    1  sudo apt-get upgrade
+    2  sudo apt-get update
+    3  sudo apt-get install git
+    4  sudo apt-get install docker
+    5  sudo apt-get install docker-ce
+    6  docker
+    7  git
+    8  git --version
+    9  docker --version
+   10  pwd
+   11  ls -a
+   12  cd escritorio
+   13  cd Escritorio
+   14  ls la
+   15  ls -la
+   16  ls
+   17  ls -a
+   18  cd teffy
+   19  cd ..
+   20  ls
+   21  cd Escritorio/
+   22  pwd
+   23  cd ..
+   24  pwd
+   25  cd Escritorio/
+   26  mkdir Proyecto
+   27  cd  Proyecto/
+   28  ls-a
+   29  mkdir Practicas_Git
+   30  ls
+   31  cd Practicas_Git/
+   32  git
+   33  git init
+   34  ls -la
+   35  nano index.html
+   36  ls
+   37  cat index.html 
+   38  git status
+   39  git add .
+   40  git status
+   41  git commit -m "primera prueba"
+   42  git config --global user.email  "ekhaliagaQ"
+   43  git config --global user.email "ekhaliaga@gmail.com"
+   44  git config --global user.name "Estefany Aliaga"
+   45  clear
+   46  kokjik
+   47  iikokpooo
+   48  lkop
+   49  kloplopkookp
+   50  okp
+   51  git commit -m "Primer Commit"
+   52  git log
+   53* git log --all --graph --decorate --onelin
+   54  alias magit="git log --all"
+   55  alias magit="git log --all --graph --decorate --oneline"
+   56  magit
+   57  git show
+   58  git branch
+   59  vim texto.txt
+   60  vi texto.txt
+   61  cat texto.txt 
+   62  git status
+   63  git add .
+   64  git status
+   65  git commit -m "Segundo Commit"
+   66  touch texto2.txt
+   67  ls
+   68  git status
+   69  git commit -am "Probando"
+   70  git add .
+   71  git commit -m "TErcer Commit"
+   72  magit
+   73  git branch
+   74  git branch rama2
+   75  git branch
+   76  git checkout rama2
+   77  git branch
+   78  git log
+   79  mkdir CSS
+   80  cd CSS/
+   81  a
+   82  touch t.css t2.css
+   83  ls
+   84  cd ..
+   85  git add .
+   86  git commit -m "prob"
+   87  magit
+   88  git log
+   89  ls -la
+   90  git checkout master
+   91  ls -la
+   92  magit
+   93  git log
+   94  mkdir JS
+   95  touch q.css
+   96  ls
+   97  git add .
+   98  git commit -m "Cuarto Commit"
+   99  magit
+  100  git log
+  101  git branch
+  102  git merge rama2 "Uniendo Ramas"
+  103  git log
+  104  magit
+  105  git merge rama2 -m  "Uniendo Ramas"
+  106  git log
+  107  ls -la
+  108  magit
+  109  git log
+  110  git remote add origin https://github.com/ektheryz/bananaSplit.git
+  111  git push origin master
+  112  git pull origin master
+  113  git pull origin master --allow-unrelated-histories
+  114  ls
+  115  git push
+  116  git push oorigin master
+  117  git push origin master
+  118  history
+
